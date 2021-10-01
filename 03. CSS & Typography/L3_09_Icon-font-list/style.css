@@ -1,0 +1,14 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+html {
+    margin-top: 60px;
+}
+
+.icons {
+    list-style-type: none;
+    font-family: Helvetica, sans-serif;
+}
+
+i {
+    padding-right: 5px;
+}
