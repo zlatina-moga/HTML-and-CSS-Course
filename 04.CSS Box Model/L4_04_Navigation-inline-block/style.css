@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin: 60px 80px;
+}
+
+header {
+    padding-bottom: 10px;  
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;  
+}
+
+nav {
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+}
+
+li a {
+    color: rgb(21, 138, 64);
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+main {
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
