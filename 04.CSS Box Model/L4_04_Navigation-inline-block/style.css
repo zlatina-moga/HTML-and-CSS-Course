@@ -1,33 +1,32 @@
 html {
     font-family: Helvetica, sans-serif;
-    margin: 60px 80px;
+}
+
+body {
+    max-width: 1200px;
+    margin: 70px auto;
 }
 
 header {
-    padding-bottom: 10px;  
+   border-bottom: 2px solid black; 
 }
 
-.title {
-    font-size: 40px;
-    font-weight: 600;  
-}
-
-nav {
+h1, nav {
     display: inline-block;
 }
 
-nav li{
-    display: inline-block;
+h1{
+    margin-right: 30px;
 }
 
-li a {
+nav ul li{
+    display: inline-block;
+    margin: 0 12px
+}
+
+nav a {
     color: rgb(21, 138, 64);
     text-decoration: none;
-    padding-right: 25px;
-}
-
-main {
-    padding-top: 10px;
 }
 
 h1 {
