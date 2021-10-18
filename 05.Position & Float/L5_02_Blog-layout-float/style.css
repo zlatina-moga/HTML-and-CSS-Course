@@ -1,0 +1,82 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(238, 238, 238);
+    margin: 60px 80px;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 12px 3px rgb(0 0 0 / 25%);
+    padding: 17px;
+    border: 3px solid black
+}
+
+blockquote,
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+h2 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+li {
+    list-style: square;
+}
+
+aside li a {
+    text-decoration: none;
+    color: rgb(71, 154, 45);
+}
+
+header{
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    float: left;
+    width: 70%;
+    padding-right: 80px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+}
+
+.right-image {
+    float: right;
+    margin: 0 0 7px 30px
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid lightgrey;
+    padding-left: 40px;
+    width: 40%;
+    float: right;
+    line-height: 1.6;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+.second-img {
+    float: left;
+    margin-right: 30px;
+}
