@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: rgb(66, 65, 90);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item {
+  list-style-type: none;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: rgb(66, 65, 90);
+  margin: 20px 8px;
+}
+
+.nav-logo {
+  max-width: 150px;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.programs {
+  background: rgb(66, 65, 90);
+  padding: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  max-height: 510px;
+}
+
+.programs::before{
+    content: '';
+    background: url('./images/calculator-icon.svg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -62px;
+    top: 150px;
+    background-repeat: no-repeat;
+}
+
+.programs-title {
+  color: white;
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 35px;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  width: 30%;
+  max-width: 400px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 6px -2px black;
+  position: relative;
+  top: 87px;
+}
+
+.program-title {
+  font-size: 24px;
+  color: rgb(66, 65, 90);
+}
+
+.program-subtitle {
+    padding: 15px;
+}
+
+.program-cta {
+  background: rgb(134, 67, 185);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px -2px black;
+  margin: 50px auto;
+}
+
+.program-footer {
+  color: white;
+  padding: 18px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.design-basics .program-footer {
+  background: linear-gradient(
+    90deg,
+    rgba(21, 141, 47, 1) 0%,
+    rgba(39, 175, 77, 1) 35%,
+    rgba(64, 208, 108, 1) 100%
+  );
+  flex-grow: 1;
+}
+
+.fundamentals .program-footer {
+  background: linear-gradient(
+    90deg,
+    rgba(60, 87, 117, 1) 0%,
+    rgba(71, 112, 156, 1) 35%,
+    rgba(80, 134, 193, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.professional .program-footer {
+  background: linear-gradient(
+    90deg,
+    rgba(57, 34, 149, 1) 35%,
+    rgba(120, 99, 216, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+}
+
+.program-footer-onsite{
+    border-right: 1px solid white;
+    padding-right: 26px;
+}
+
+.program-footer-text{
+    font-size: 12px;
+}
