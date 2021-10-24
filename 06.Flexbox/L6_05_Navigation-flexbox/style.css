@@ -1,0 +1,33 @@
+body{
+    padding: 0 80px;
+    margin: 60px auto;
+}
+
+header{
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+   justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: rgb(0, 153, 0);
+}
+.title{
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.main-title{
+    font-weight: lighter;
+}
