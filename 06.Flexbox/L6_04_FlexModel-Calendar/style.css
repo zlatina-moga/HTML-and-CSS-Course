@@ -11,12 +11,6 @@ section {
     justify-content: center;
 }
 
-section{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
 section.notes{
     flex-direction: column;
 }
