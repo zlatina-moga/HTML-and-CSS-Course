@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: rgb(234, 234, 234);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery{
+    margin: 120px 220px;
+}
+
+body,
+ul,
+li {
+    display: flex;
+}
+
+.gallery ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery li {
+    border: 8px solid black;
+    background: white;
+    padding: 22px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 13px -1px black;
+    list-style-type: none;
+    align-items: center;
+}
