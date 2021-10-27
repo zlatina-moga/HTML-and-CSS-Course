@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    margin: 10px 80px;
+    padding: 0;
+    font-family: Georgia, serif;
+    background: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header .title {
+    max-width: 30%;
+}
+
+header .title h1{
+    font-weight: lighter;
+    color: rgb(107, 0, 109);
+}
+
+header .title p{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: x-small;
+    letter-spacing: 0.05px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 30px;
+   
+}
+
+header nav ul li a{
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(9, 0, 10)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.cta {
+    max-width: 60%;
+}
+
+div.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.cta-content p{
+    padding-right: 20px;
+}
+
+.cta-button {
+    padding: 6px 14px;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.team {
+   padding-top: 30px;
+   max-width: 50%;
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team-title::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 13%;
+    padding-top: 20px;
+    border-bottom : 2px solid black;
+}
+
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+img.team-member-img{
+    align-self: center;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 112.5px;
+    max-height: 112.5px;
+    box-shadow: 1px 1px 7px -2px black;
+}
+
+.team-member {
+    margin-top: 20px;
+}
+
+.team-member p{
+    font-family: Helvetica, sans-serif;
+}
+
+.team-member-name{
+    font-weight: bold;
+}
+
+.team-member-description {
+    font-style: italic;
+}
+
+.sign-up{
+    background: rgb(84, 34, 104);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.sign-up-title {
+    color: white;
+    text-align: center;
+}
+
+.sign-up-title::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 13%;
+    padding-top: 20px;
+    border-bottom : 2px solid black;
+}
+
+.sign-up form {
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.testimonials{
+    max-width: 50%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+.testimonials-title::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 20px;
+    border-bottom : 2px solid black;
+}
+
+.testimonials-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+div.testimonial{
+    max-width: 30%;
+    margin: 10px;
+}
+
+p.testimonal-comment{
+    font-style: italic;
+}
+
+.page-footer{
+    display: flex;
+    border-top: 1px solid grey;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.footer-title{
+    max-width: 30%;
+    
+}
+
+.footer-sitemap{
+    justify-content: center;
+}
+
+
+.footer-sitemap ul li{
+    list-style: none;
+}
+
+.footer-sitemap ul li a{
+    text-decoration: none;
+    color: black;;
+}
+
+.contacts-info{
+    display: flex;
+    align-items: center;
+}
+
+.contacts-info p{
+    padding-left: 4px;
+}
