@@ -1,0 +1,55 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 238, 238);
+    color: rgb(95, 88, 87);
+}
+
+section{
+    padding: 80px;
+    max-width: 50%;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+div.card{
+    background: rgb(255, 255, 255);
+}
+
+div.second-card{
+    background: rgb(255, 255, 255);
+    padding: 10px 20px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+
+div.second-card h3{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    color: black;
+}
+
+div.second-card p{
+    padding-bottom: 20px;
+}
+
+div.second-card button {
+    background: rgb(0, 153, 0);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
