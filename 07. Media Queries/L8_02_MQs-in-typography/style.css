@@ -1,0 +1,101 @@
+@media screen and (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+body {
+    margin: 60px 80px;
+    padding: 0;
+    background: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+div.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+p.title {
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 26px;
+}
+
+main h1, h2, h3, blockquote{
+    font-family: Georgia, serif;
+    font-weight:lighter;
+}
+
+main section img{
+    border: 3px solid black;
+    padding: 8px;
+    background: rgb(255, 255, 255);
+}
+
+section.first-section {
+    position: relative;
+}
+
+.first-section img {
+    float: right;
+    margin-left: 12px;
+}
+
+article.second-section-article{
+    display: flex;
+}
+
+
+.second-section-article blockquote{
+    border-left: 6px solid lightgrey;
+    padding-left: 60px;
+    font-style: italic;
+}
+
+blockquote p{
+    text-align: right;
+}
+
+section.third-section {
+    position: relative;
+}
+
+section.third-section img{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
