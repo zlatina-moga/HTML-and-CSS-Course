@@ -1,0 +1,65 @@
+body {
+    margin: 60px 100px;
+    font-family: Helvetica, sans-serif;
+    color: darkgray
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1300px;
+}
+
+h1, h5 {
+    font-family: Georgia, serif;
+    color: black;
+}
+
+.page-header-title {
+    margin-bottom: 10px;
+}
+
+.page-header-subtitle {
+    margin-top: 10px;
+}
+
+.page-content {
+    display: flex;
+}
+
+main::after{
+    content: '';
+    display: block;
+    margin: 80px auto;
+    width: 40%;
+    padding-top: 20px;
+    border-bottom : 3px solid darkgray;
+}
+
+.page-cta-btn {
+    padding-right: 240px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.page-cta-btn button {
+    background: rgb(27, 192, 129);
+    padding: 10px 120px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.page-info-text {
+    margin-bottom: 0;
+}
+
+.page-info-text-important{
+    background: rgb(197, 254, 228);
+}
