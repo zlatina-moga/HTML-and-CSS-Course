@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    margin: 60px 80px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(130, 134, 133);
+    max-width: 1300px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: black;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+.about-us-img{
+    width: 100%;
+}
+
+.about-us-title{
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+}
+
+.auto-offers-title {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.auto-offers-list{
+    padding: 0;
+}
+
+.auto-offers-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.auto-offers-list-item-subtitle {
+    margin-bottom: 8px;
+}
+
+.auto-offers-list-item-text{
+    margin-top: 0;
+}
+
+.auto-offers-list-item-img {
+    margin-right: 12px;
+}
+
+.auto-img {
+    margin-left: 20px
+}
