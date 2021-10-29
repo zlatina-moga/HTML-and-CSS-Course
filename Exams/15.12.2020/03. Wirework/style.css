@@ -1,0 +1,204 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    margin: 10px 0 0 0;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*header section */
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.page-header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.page-header-logo-title {
+    font-weight: 600;
+    color: rgb(33, 42, 45);
+    padding-right: 10px;
+    font-size: 36px;
+}
+
+.page-header-logo-title-info{
+    border-left: 2px solid rgb(180, 180, 180);
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(180, 180, 180);
+    padding-left: 10px;
+}
+
+.page-header-nav-list{
+    display: flex;
+}
+
+.page-header-nav-list-item{
+    list-style: none;
+    background: rgb(231, 231, 231);
+}
+
+.page-header-nav-list-item a{
+    text-decoration: none;
+    color: rgb(52, 55, 65);
+}
+
+.page-header-nav-list-item-first{
+    list-style: none;
+    background: #E24E2A;
+   
+}
+
+.page-header-nav-list-item-first a{
+    text-decoration: none;
+    color: white
+}
+
+.page-header-nav-list-item-first,
+.page-header-nav-list-item {
+    padding: 20px;
+    margin-right: 3px;
+}
+
+/*main*/
+
+.intro-img{    
+    width: 100%;
+}
+
+.intro-img img{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.intro-content {
+    background: #E24E2A;
+    color: #F8DDCF;
+    text-align: center;
+    padding: 80px 160px;
+    margin-top: -10px;
+}
+
+.intro-content-text{
+    line-height: 38px;
+}
+
+.intro-content-text a{
+    color: #F8DDCF;
+}
+
+.benefits {
+    padding: 80px 130px;
+    background: #383838;
+    display: flex;
+    
+}
+
+.benefit {
+    margin: 0 12px;
+}
+
+.benefit-img{
+    background: #E24E2A;
+    padding: 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.benefit-img i{
+    color: #EFF3F6;
+    font-size: 55px;
+}
+
+.benefit-title {
+    color: #EFF3F6;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.benefit-text{
+    color: #5D6465;
+    border-top : 1px solid #5D6465;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.banner {
+    padding: 40px;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 30px;
+    color: #565656;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.banner-text{
+    margin-top: 0;
+    color: #A6ABB6;
+}
+
+.banner-btn{
+    background: #1B9772;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.abouts {
+    display: flex;
+    padding: 50px 80px;
+    background: #383838;
+}
+
+.about {
+    margin: 20px;
+}
+
+.about-title{
+    color: #F0F3F5;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-text{
+    color: #5D6465;
+    text-align: center;
+}
+
+
+/*footer*/
+
+.page-footer {
+    background: #1B9772;
+    text-align: center;
+    padding: 50px 160px;
+    color: #51B395;
+}
+
+.page-footer-partners {
+    color: #7CBFA3;
+}
