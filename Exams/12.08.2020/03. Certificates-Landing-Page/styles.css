@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    background: #FFFFFF;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 13px -3px black;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #FFFFFF;
+    margin: 0 60px;
+    position: relative;
+}
+
+.page-header-logo {
+    max-width: 130px;
+}
+
+.page-header-logo img {
+    width: 100%;
+}
+
+.page-header-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page-header-nav-list-item,
+.page-header-nav-list-item-last{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.page-header-nav-list-item a {
+    text-decoration: none;
+    color: #4D5B6C;
+    font-size: 20px;
+}
+
+.page-header-nav li:nth-child(3) a {
+    border-top: 5px solid #42ABF8;
+    padding-top: 30px;
+}
+
+.page-header-nav-list-item-last a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.page-header-nav-list-item-last{
+    background: #42ABF8;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px -2px black;
+}
+
+.page-intro::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('./images/hero-certificates.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+}
+
+.page-certificates {
+    display: flex;
+    padding: 60px 80px 0 60px;
+    justify-content: space-between;
+}
+
+.page-certificates-title{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.page-certificates-info {
+    max-width: 600px;
+    background: #29394B;
+    position: relative;
+    color: white;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.page-certificates-images {
+    display: flex;
+    position: relative;
+    align-items: center
+}
+
+.page-certificates-footer{
+    padding: 20px 60px;
+}
+
+.page-certificates-footer p{
+    font-style: italic;
+    color: #263F57;
+}
+
+.diploma {
+    position: relative;
+    background: #FFFFFF;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    color: #3B495B;
+}
+
+.dimploma-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dimploma-info{
+    background: #F4F5F7;
+    padding: 16px 22px;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.dimploma-footer{
+    padding: 0 50px;
+}
+
+.program {
+    background-image: url('./images/sign-up-prompt-background.jpg');
+   height: 250px;
+   padding: 60px;
+   border-radius: 12px;
+   margin: 40px;
+  
+}
+
+.program-title,
+.program-text,
+.program-cta,
+.program-cta-btn-info{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.program-title{
+    font-size: 30px;;
+}
+
+.program-cta-btn,
+.program-cta-btn-info {
+    background: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: #44ABF7;
+}
+
+.page-footer {
+    margin: 30px 50px;
+    border-top: 1px solid #828B94;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.page-footer-logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.page-footer-logo {
+    max-width: 120px;
+    margin-right: 20px;
+}
+
+.page-footer-logo img{ 
+    width: 100%;
+}
+
+.page-footer-nav-list{
+    display: flex;
+}
+
+.page-footer-nav-list-item{
+    list-style: none;
+    margin-right: 12px;
+}
+
+.page-footer-nav-list-item a{
+    text-decoration: none;
+    color: #838B94;
+}
+.page-footer-nav-list-item i {
+    color: #3E4C5D;
+}
+
+.page-footer-logo-text {
+    color: #CBCBCB;
+}
