@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.page-header {
+    margin: 0 120px;
+}
+
+.page-header-nav-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.page-header-nav-list-item{
+    list-style: none;
+    
+}
+
+.page-header-nav-list-item a {
+    text-decoration: none;
+    color: #969696;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.solo-wireless {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.solo-wireless-info{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.solo-wireless-info-title{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.solo-wireless-info-text {
+    color: #979697;
+    font-size: 20px;
+}
+
+.solo-wireless-info-btn {
+    background: #FE0101;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+
+.solo-wireless-img {
+    max-width: 60%;
+    max-height: 40%;
+    margin-right: -20px;
+    
+}
+
+.solo-wireless-img img {
+    width: 100%;
+}
+
+.powerbeats {
+    display: flex;
+    padding-top: 60px;
+    background: #FBFCFF;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+.powerbeats-img{
+    max-width: 50%
+}
+.powerbeats-info{
+    max-width: 35%;
+    margin: 0 80px;
+}
+
+.powerbeats-info-title {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 0
+}
+
+
+.powerbeats-info-subtitle {
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-left: 135px;
+}
+
+.powerbeats-info-subtitle-emphasis {
+    font-weight: bolder;
+    color: #000000;
+}
+
+.powerbeats-info p{
+    color: #949597;
+}
+
+.powerbeats-info-cta {
+    display: flex;
+    margin-top: 180px;
+    align-items: center;
+}
+
+.powerbeats-info-cta-price {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.powerbeats-info-cta-btn {
+    background: #FE0101;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    max-height: 50px;
+}
